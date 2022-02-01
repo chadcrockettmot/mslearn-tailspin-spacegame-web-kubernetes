@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: chadcrockettmot/motion-repo/web
+          image: docker.io/library/web
           ports:
           - containerPort: 8080
 ---
@@ -34,6 +34,6 @@ spec:
     spec:
       containers:
         - name: leaderboard
-          image: chadcrockettmot/motion-repo/leaderboard
+          image: docker.io/library/leaderboard
           ports:
           - containerPort: 8080
